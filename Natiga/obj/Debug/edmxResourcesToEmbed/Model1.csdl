@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Natiga2023Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Stage_New_Search">
+    <Key>
+      <PropertyRef Name="seating_no" />
+    </Key>
+    <Property Name="seating_no" Type="Double" Nullable="false" />
+    <Property Name="arabic_name" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="total_degree" Type="Double" />
+    <Property Name="student_case" Type="Double" />
+    <Property Name="student_case_desc" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="c_flage" Type="Double" />
+  </EntityType>
+  <EntityContainer Name="Natiga2023Entities2" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Stage_New_Search" EntityType="Self.Stage_New_Search" />
+  </EntityContainer>
+</Schema>

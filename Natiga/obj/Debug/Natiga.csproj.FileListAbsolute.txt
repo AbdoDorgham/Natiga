@@ -1,0 +1,12 @@
+C:\Users\Engineer\source\repos\Natiga\Natiga\bin\Debug\Natiga.exe.config
+C:\Users\Engineer\source\repos\Natiga\Natiga\bin\Debug\Natiga.exe
+C:\Users\Engineer\source\repos\Natiga\Natiga\bin\Debug\Natiga.pdb
+C:\Users\Engineer\source\repos\Natiga\Natiga\obj\Debug\Natiga.csproj.AssemblyReference.cache
+C:\Users\Engineer\source\repos\Natiga\Natiga\obj\Debug\Natiga.csproj.CoreCompileInputs.cache
+C:\Users\Engineer\source\repos\Natiga\Natiga\obj\Debug\Natiga.exe
+C:\Users\Engineer\source\repos\Natiga\Natiga\obj\Debug\Natiga.pdb
+C:\Users\Engineer\source\repos\Natiga\Natiga\bin\Debug\EntityFramework.dll
+C:\Users\Engineer\source\repos\Natiga\Natiga\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Engineer\source\repos\Natiga\Natiga\bin\Debug\EntityFramework.xml
+C:\Users\Engineer\source\repos\Natiga\Natiga\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Engineer\source\repos\Natiga\Natiga\obj\Debug\Natiga.csproj.CopyComplete

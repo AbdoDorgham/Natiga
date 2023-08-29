@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Natiga2023ModelStoreContainer" CdmEntityContainer="Natiga2023Entities2">
+    <EntitySetMapping Name="Stage_New_Search">
+      <EntityTypeMapping TypeName="Natiga2023Model.Stage_New_Search">
+        <MappingFragment StoreEntitySet="Stage_New_Search">
+          <ScalarProperty Name="seating_no" ColumnName="seating_no" />
+          <ScalarProperty Name="arabic_name" ColumnName="arabic_name" />
+          <ScalarProperty Name="total_degree" ColumnName="total_degree" />
+          <ScalarProperty Name="student_case" ColumnName="student_case" />
+          <ScalarProperty Name="student_case_desc" ColumnName="student_case_desc" />
+          <ScalarProperty Name="c_flage" ColumnName="c_flage" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Natiga2023Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Stage_New_Search">
+    <Key>
+      <PropertyRef Name="seating_no" />
+    </Key>
+    <Property Name="seating_no" Type="float" Nullable="false" />
+    <Property Name="arabic_name" Type="nvarchar" MaxLength="255" />
+    <Property Name="total_degree" Type="float" />
+    <Property Name="student_case" Type="float" />
+    <Property Name="student_case_desc" Type="nvarchar" MaxLength="255" />
+    <Property Name="c_flage" Type="float" />
+  </EntityType>
+  <EntityContainer Name="Natiga2023ModelStoreContainer">
+    <EntitySet Name="Stage_New_Search" EntityType="Self.Stage_New_Search" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
